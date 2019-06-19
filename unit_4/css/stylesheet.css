@@ -1,3 +1,6 @@
+@import url(https://fonts.googleapis.com/css?family=Karla:700|Roboto&display=swap);
+
+
 * {
   padding: 0;
   margin: 0;
@@ -26,7 +29,6 @@ body {
    background-color: #FFFCF7;
 }
 
-@import url(https://fonts.googleapis.com/css?family=Karla:700|Roboto&display=swap);
 
 h1 {
   	font-family: 'Karla', sans-serif;
@@ -63,15 +65,15 @@ a {
 
 
 #intro {
-	background-image: url(../images/sweetmoments2.jpg);
+	background-image: linear-gradient (#) url(../images/sweetmoments2.jpg), ;
   background-color: #E7ECEF;
   height: 702px; 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 20px;
-  text-align: center;
+  padding: 20px; 
   color: #FFFFFF;
+
 
 }
 
