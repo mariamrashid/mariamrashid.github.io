@@ -4,13 +4,26 @@
 }
 
 .site-nav a {
-	font-family: 'Karla', sans-serif;
+	 font-family: 'Karla', sans-serif;
   	font-size: 1em;
   	color: #4A5759;
+    margin-right: 10px
+}
+
+header {
+    background-color: #FCF3E4;
+    padding: 20px;
+}
+
+footer {
+    padding: 20px;
+    background-color:#DDDDDD;
+    opacity:0.7;
+   
 }
 
 body {
-	background-color: #FFFCF7;
+   background-color: #FFFCF7;
 }
 
 @import url(https://fonts.googleapis.com/css?family=Karla:700|Roboto&display=swap);
@@ -41,15 +54,24 @@ p {
 }
 
 a {
-  	font-family: 'Roboto', sans-serif;
+  	color: #7A9E7E;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
   	font-size: 1em;
   	line-height: 1.5em;
 }
 
 
-
-background {
-	background-image: image src ="images/sweetmoments2.jpg";
+#intro {
+	background-image: url(../images/sweetmoments2.jpg);
+  background-color: #E7ECEF;
+  height: 702px; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+  text-align: center;
+  color: #FFFFFF;
 
 }
 
