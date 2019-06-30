@@ -6,13 +6,6 @@
   margin: 0;
 }
 
-.site-nav a {
-	 font-family: 'Karla', sans-serif;
-  	font-size: 1em;
-  	color: #4A5759;
-    margin-right: 10px
-}
-
 header {
     background-color: #FCF3E4;
     padding: 20px;
@@ -27,6 +20,7 @@ footer {
 
 body {
    background-color: #FFFCF7;
+   font-family: 'Roboto', sans-serif;
 }
 
 
@@ -63,6 +57,12 @@ a {
   	line-height: 1.5em;
 }
 
+.site-nav a {
+   font-family: 'Karla', sans-serif;
+    font-size: 1em;
+    color: #4A5759;
+    margin-right: 10px
+}
 
 #intro {
 	background-image: linear-gradient (#) url(../images/sweetmoments2.jpg), ;
