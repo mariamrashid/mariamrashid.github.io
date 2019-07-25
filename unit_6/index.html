@@ -6,61 +6,70 @@
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+	<link rel="stylesheet" href="https://use.typekit.net/gsb1uxn.css">
+
 	<title>Lemon Bird</title>
 
 </head>
 
 <body>
 
-	<div class="wrapper">
-
-		<header class="main-header">
+	<section id="header-top">
+		<header>
 			<img src="images/lemonlogo.png" alt="Lemon Bird Logo">
-			<nav class="site-nav">
-				<a href="#">Shop</a>
-				<a href="#">Visit</a>
-				<a href="#">Support</a>
-				<a href="#">Contact</a>
+			<nav>
+				<div class="site-nav">	
+					<a class='a2' href="#">Shop</a>
+					<a class='a2' href="#">Visit</a>
+					<a class='a2' href="#">Support</a>
+					<a class='a2' href="#">Contact</a>
+					<a href="#" class="fa fa-shopping-cart"></a>
+				</div>	
 			</nav>
 		</header>
 
 		
-		<section id="intro">
-				<h1>Turning sour situations into sweet moments</h1>
-				<p class="p1">All products and space hangout proceeds go to a cause of your choice</p>
-				<a href="#" class="a1">Learn More</a>
-		</section>
-	
-		
-		<section id="intro-baby">
-				<img src="images/iconshop.png" width="77">
-				<h2> The Baby Shop </h2>
-				<a href="#">Shop Now</a>
-		</section>
+	</section>
 
-		
-		<section id="intro-hang">
-				<img src="images/iconcafe.png" width="65">
-				<h2> Come Hang </h2>
-				<a href="#">Locations</a>
-		</section>
+		<section id="two-column" class="clearfix">
+			<div id="left">
+				<div class="hero-text">
+					<h1>Turning sour situations into sweet moments</h1>
+					<p class="p1">All products and space hangout proceeds go to a cause of your choice</p>
+					<a href="#">Learn More</a>
+				</div>
+			</div>
+			
+			<div id="right">
+				<div id="intro-babyshop">
+					<img src="images/iconshop.png" width="77">
+					<h2> The Baby Shop </h2>
+					<a class='cta' href="#">Shop Now</a>
+				</div>
+				<div id="intro-hang">
+					<img src="images/iconcafe.png" width="65">
+					<h2> Come Hang </h2>
+					<a class='cta' href="#">Locations</a>
+				</div>	
+			</div>
+		</section>		
 
-	
-		<section id="baby-shop">
-				
+		<section id="baby-shop">		
 			<div class="shop">
 				<img src="images/iconshop.png" width="77">
 				<h2> The Baby Shop </h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
-				<a href="#">Shop All</a>
+				<a class='a1' href="#">Shop All</a>
 			</div>		
 
 			<div class="sale">
-				<img src="images/babysale.jpg" alt="Image of Baby" width="790">
-				<h4>Summer Sale 70%</h4>
-				<a href="#">Shop Sale</a>
+				<img src="images/sale-image.png" alt="Image of Baby" width="65%">	
+				<div class="sale-textbox">
+					<h4> SUMMER SALE 70% </h4>	
+					<a href="#">Shop Sale</a>
+				</div>
 			</div>
 		
 			<div class="toys">
@@ -70,44 +79,69 @@
 		
 			<div class="clothes">
 				<img src="images/babyclothes.png" alt="Image of Baby Toys">
-				<a href="#">Shop Clothes</a>
+				<a class='a1' href="#">Shop Clothes</a>
 			</div>	
 
-			<div class="new arrivals">
+			<div class="new">
 				<img src="images/bassinet.png" alt="Image of Bassinet">
 				<a href="#">Shop New Arrivals</a>
 			</div>			
 		</section>
 			
-		<section id="hang">	
-				<img src="images/iconcafe.png" width="65">
-				<h2> Come Hang </h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
-				<a href="#">Locations</a>
-				<img src="images/cafe2.jpg" alt="Image of Cafe" title="Lemon Bird Coffee Shop" width="420">
+		<section id="hang" class="clearfix2">	
+			<div id="hang-image">
+				<img src="images/cafe2.jpg" alt="Image of Cafe" width="1100">
+			</div>
+				
+			<div id="hang-left">
+				<div class="hang-text">
+					<img src="images/iconcafe.png" width="65">
+					<h2> Come Hang </h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+					<a class="a1" href="#">Locations</a>
+				</div>
+
+				<div class="mapouter"><div class="gmap_canvas"><iframe width="550" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=buckhead&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+				</div>
+
 		</section>		
 
 				
 		<section id="causes">		
-				<h2>Buy Some, Give Some</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+				<h class="h21">Buy Some, Give Some</h>
+				<p class="p1">10% of our proceeds go to a child-related cause of your choice, you pick at check out.</p>
 				
-				<img src="images/cleanwater.png" alt="Clean Water" width="150">
-				<img src="images/education.png" alt="Girls Education" width="150">
-				<img src="images/health.png" alt="Maternal Health" width="150">
-				<img src="images/cmarriage.png" alt="Child Marriage" width="150">
+				<div id="causes-circles">
+					<div class="water">
+						<img src="images/cleanwater.png" alt="Clean Water" width="200">
+						<p class="p2">Clean Water</p>
+					</div>
+
+					<div class="education">
+						<img src="images/education.png" alt="Girls Education" width="200">
+						<p class="p2">Girls Education</p>
+					</div>
+
+					<div class="health">
+						<img src="images/health.png" alt="Maternal Health" width="200">
+						<p class="p2">Maternal Health</p>
+					</div>
+
+					<div class="marriage">
+						<img src="images/cmarriage.png" alt="Child Marriage" width="200">
+						<p class="p2">Child Marriage</p>
+					</div>
+				</div>
+
 		</section>
-	</div>
 
 		<footer>
+			<img src="images/lemonlogo.png" alt="Lemon Bird Logo" width="150">
 				<h3>Subscribe to our Newsletter</h4>
-				<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+				<p>Get 15% off your first purchase when you sign-up</p>
 				
-			
 				<form>
 					<input type="text" placeholder="Email address" name="mail" required>
 					<input type="submit" value="Sign Up">

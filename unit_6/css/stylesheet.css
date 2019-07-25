@@ -7,11 +7,20 @@
 }
 
 
+header {
+    background-color: #FCF3E4;
+    padding: 30px;
+}
+
+nav {
+    float: right;
+}
+
 footer {
-    padding: 20px;
-    background-color:#DDDDDD;
-    opacity:0.7;
-   
+    border: 1px black solid;
+    padding: 100px; 
+    text-align: center;
+    clear: both;  
 }
 
 body {
@@ -21,6 +30,7 @@ body {
 
 h1 {
   	font-family: 'Karla', sans-serif;
+  	color: white;
   	font-size: 2.5em;
   	line-height: 1em;
   	font-weight: bold;
@@ -28,91 +38,261 @@ h1 {
 
 h2 {
   	font-family: 'Karla', sans-serif;
+  	color: #707070;
   	font-size: 1.875em;
   	line-height: 1em;
+  	padding: 20px;
 }
 
 h3 {
   	font-family: 'Karla', sans-serif;
+  	color: #707070;
   	font-size: 1.3em;
   	line-height: 1em;
+  	padding: 10px;
 }
+
+h4 {
+    font-family: 'Karla', sans-serif;
+    font-size: 3.3em;
+    color: #3C6E71;
+    word-wrap: break-word;
+
+} 
+
+.h21 {
+	font-family: 'Karla', sans-serif;
+  	color: white;
+  	font-size: 1.875em;
+  	line-height: 1em;
+} 
+
 
 p {
   	font-family: 'Roboto', sans-serif;
+  	color: #4A5759;
+  	font-size: 1em;
+  	line-height: 1.5em;
+  	padding: 10px;
+}
+
+.p1 {
+	font-family: 'Roboto', sans-serif;
+  	color: white;
   	font-size: 1em;
   	line-height: 1.5em;
 }
 
-p.p1 {
-    font-size: 1.3750em;
-    padding-top: 30px;
-    padding-bottom: 30px;
+.p2 {
+	font-family: platelet, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+  	color: white;
+  	font-size: 1.5em;
+  	line-height: 1.5em;
+  	padding: 10px;
 
 }
 
 a {
-  	color: #7A9E7E;
-    text-decoration: none;
+  	color: white;
+    text-decoration: underline;
     font-family: 'Roboto', sans-serif;
   	font-size: 1em;
   	line-height: 1.5em;
+  	padding: 10px;
 }
 
-a.a1 {
-    color: #FFFFFF;
-    text-decoration: underline;
+.a1 {
+	color: #4A5759;
+	padding: 10px;
 }
 
-.main-header {
-    background-color: #FCF3E4;
-    padding-left: 90px;
-    padding-bottom: 40px;
-    padding-top: 40px;
-    padding-right: 90px;
-    
+.a2 {
+	font-family: 'Karla', sans-serif;
+  	color: #707070;
+  	font-size: 1.3em;
+  	line-height: 1em;
+  	padding: 20px;
+  	text-decoration: none;
+
 }
 
-.site-nav a {
-   font-family: 'Karla', sans-serif;
-    font-size: 1em;
-    color: #4A5759;
+.fa {
+	color: #4A5759;
+	text-decoration: none;
+	padding: 20px;
+}
+
+.cta {
+	background-color: #4A5759;
+	text-decoration: none;
+	padding: 10px 65px 10px 65px;
+}
+
+
+.clearfix:after {
+    visibility: hidden;
     display: block;
-    float: right;
-    padding-right: 20px;
-    padding-bottom: 0px;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
 }
 
-#intro {
-	padding: 196px 171px 263px 171px; 
-  background-image: linear-gradient(rgba(52,52,52,.23), rgba(52,52,52,.23)), url(../images/sweetmoments.jpg);
-  background-color: #E7ECEF;
-  text-align: center;
-  line-height: 50px;
-  background-position: center;
-  background-repeat: no-repeat;
+#two-column {
+	clear: both;
+}
+
+#left {
+  background: linear-gradient(rgba(52,52,52,.23),rgba(52,52,52,.23)), url(../images/sweetmoments.jpg), center; 
   background-size: cover;
-  color: #FFFFFF;
-
+  background-position: center;
+  float: left;
+  width: 65%;
 }
 
-#intro-baby {
+.hero-text {
+	text-align: center;
+	padding: 280px;
+}
+
+#right {
+  float: right;
+  width: 35%;
   text-align: center;
-  margin: 90px 130px 90px 110px;
-  border: 1px black solid;
-  padding: 20px;
+}
+
+#intro-babyshop {
+	background-color: #FFFCF7;
+  	border-bottom: 0.5px #DDDDDD solid;
+	padding: 100px;	
+
 }
 
 #intro-hang {
-  text-align: center;
-  margin: 90px 155px 90px 110px;
-}   
+	background-color: #FFFCF7;
+  	border-top: 0.5px #DDDDDD solid;
+	padding: 100px;	
+}
 
 .shop {
-  text-align: center;
-  margin: 90px 155px 90px 110px;
+    width: 31%;
+    margin: 10px 0 0 10px;
+    float: left;
+    text-align: center;
+    padding: 120px 10px 120px 20px;
+
 }
 
 .sale {
-  margin: 90px 155px 90px 110px;
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 5px;
+   
 }
+
+.sale-textbox {
+    position: absolute;
+    bottom: 300px;
+    right: 50px;
+    width: 250px;  
+    background-color: #FCF3E4;
+    padding: 25px 55px 59px 25px;  
+}
+
+.toys {
+    background-color: #C49991;
+    width: 31%;
+    padding: 10px;
+    margin: 0px 5px 10px 10px;
+    float: left;
+}
+
+.clothes {
+    background-color: #E8F1F2;
+    width: 31%;
+    padding: 10px;
+    margin: 0px 5px 10px 5px;
+    float: left;
+}
+
+.new {
+    background-color: #4A5759;
+    width: 31%;
+    padding: 10px;
+    margin: 0px 5px 10px 5px;
+    float: left;
+}
+
+.clearfix2:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+#hang-image {
+	float: left;
+}
+
+#hang-left {
+  	width: 34%;
+  	text-align: center;
+  	float: right;
+}
+
+.hang-text {
+	padding: 70px;
+  	
+}
+
+#causes {
+	clear: both;
+    background-color: #4A5759;
+    text-align: center;
+    padding: 100px 200px 400px 200px;
+}
+
+#causes-circles {
+	padding: 0 10px 0 10px;
+}
+
+.water {
+	padding:50px;
+	float: left;
+}
+
+.education {
+	padding:50px;
+	float: left;
+}
+
+.health {
+	padding:50px;
+	float: left;
+}
+
+.marriage {
+	padding:50px;
+	float: left;
+}
+
+input[type=text] {
+	width: 20%;
+  	padding: 16px 20px;
+ 	margin: 4px 2px;
+  	box-sizing: border-box;
+}
+input[type=submit]{
+	background-color: #F3B61F;
+	border: none;
+	color: white;
+	padding: 16px 32px;
+	text-decoration: none;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
