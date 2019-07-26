@@ -4,6 +4,7 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing:border-box;
 }
 
 
@@ -56,8 +57,7 @@ h4 {
     font-family: 'Karla', sans-serif;
     font-size: 3.3em;
     color: #3C6E71;
-    word-wrap: break-word;
-
+    line-height: 1;
 } 
 
 .h21 {
@@ -71,32 +71,13 @@ h4 {
 p {
   	font-family: 'Roboto', sans-serif;
   	color: #4A5759;
-<<<<<<< HEAD
-=======
-  	font-size: 1em;
-  	line-height: 1.5em;
-  	padding: 10px;
 }
 
 .p1 {
 	font-family: 'Roboto', sans-serif;
   	color: white;
->>>>>>> 1e6af3f068bda42a61aba5cae267f2ee9db89fb9
-  	font-size: 1em;
-  	line-height: 1.5em;
-  	padding: 10px;
-}
-
-<<<<<<< HEAD
-.p1 {
-	font-family: 'Roboto', sans-serif;
-  	color: white;
-  	font-size: 1em;
   	line-height: 1.5em;
 }
-
-=======
->>>>>>> 1e6af3f068bda42a61aba5cae267f2ee9db89fb9
 .p2 {
 	font-family: platelet, sans-serif;
 	font-weight: 400;
@@ -104,26 +85,19 @@ p {
   	color: white;
   	font-size: 1.5em;
   	line-height: 1.5em;
-  	padding: 10px;
 
 }
-
 a {
   	color: white;
-    text-decoration: underline;
-    font-family: 'Roboto', sans-serif;
-  	font-size: 1em;
+	text-decoration: underline;
+	font-family: 'Roboto', sans-serif;
   	line-height: 1.5em;
   	padding: 10px;
 }
 
 .a1 {
-<<<<<<< HEAD
 	color: #3C6E71;
-=======
 	color: #4A5759;
->>>>>>> 1e6af3f068bda42a61aba5cae267f2ee9db89fb9
-	padding: 10px;
 }
 
 .a2 {
@@ -133,8 +107,6 @@ a {
   	line-height: 1em;
   	padding: 20px;
   	text-decoration: none;
-
-<<<<<<< HEAD
 }
 
 .fa {
@@ -152,22 +124,6 @@ a {
 .cta:hover {
 	background-color: #3C6E71;
 }
-=======
-}
-
-.fa {
-	color: #4A5759;
-	text-decoration: none;
-	padding: 20px;
-}
-
-.cta {
-	background-color: #4A5759;
-	text-decoration: none;
-	padding: 10px 65px 10px 65px;
-}
-
->>>>>>> 1e6af3f068bda42a61aba5cae267f2ee9db89fb9
 
 .clearfix:after {
     visibility: hidden;
@@ -180,32 +136,45 @@ a {
 
 #two-column {
 	clear: both;
+	height: 85vh;
+	min-height: 40em;
 }
 
 #left {
-  background: linear-gradient(rgba(52,52,52,.23),rgba(52,52,52,.23)), url(../images/sweetmoments.jpg), center; 
+  background: linear-gradient(rgba(52,52,52,.23),rgba(52,52,52,.23)), url(../images/sweetmoments.jpg), center;
   background-size: cover;
   background-position: center;
   float: left;
   width: 65%;
+  height: 100%;
+  position: relative;
 }
 
 .hero-text {
 	text-align: center;
-	padding: 280px;
+	/* padding: 280px; */
+	position: absolute;
+	/* left: 50%; */
+	top: 3em;
+	font-size: 1.5em;
+	/* transform: translateX(-50%); */
+	text-shadow: 1px 1px 2px rgba(0,0,0,.50);
+	width: 100%;
+	padding: 0 4em;
 }
 
 #right {
   float: right;
   width: 35%;
   text-align: center;
+  height: 100%;
 }
 
 #intro-babyshop {
 	background-color: #FFFCF7;
-  	border-bottom: 0.5px #DDDDDD solid;
-	padding: 100px;	
-
+	border-bottom: 0.5px #DDDDDD solid;
+	padding: 100px;
+	height: 50%;
 }
 
 #intro-hang {
@@ -215,53 +184,51 @@ a {
 }
 
 .shop {
-    width: 31%;
-    margin: 10px 0 0 10px;
+    width: 33.33%;
+    /* margin: 10px 0 0 10px; */
     float: left;
     text-align: center;
-    padding: 120px 10px 120px 20px;
-
+    padding: 120px 20px;
 }
 
 .sale {
     position: relative;
-<<<<<<< HEAD
     padding-top: 20px;
-=======
-    padding-top: 10px;
->>>>>>> 1e6af3f068bda42a61aba5cae267f2ee9db89fb9
-    padding-bottom: 5px;
-   
+    float: left;
+    width: 66.66%;
 }
 
 .sale-textbox {
     position: absolute;
-    bottom: 300px;
-    right: 50px;
-    width: 250px;  
-<<<<<<< HEAD
+    top: 1em;
+    right: 3em;
+    width: 20em;
     background-color: #E8F1F2;
-=======
     background-color: #FCF3E4;
->>>>>>> 1e6af3f068bda42a61aba5cae267f2ee9db89fb9
-    padding: 25px 55px 59px 25px;  
+    padding: 6em 2em;
+    box-shadow: 2px 2px 4px rgba(0,0,0,.25);
+    text-align: center;
 }
 
 .toys {
-<<<<<<< HEAD
-    margin: 0px 5px 10px 200px;
     float: left;
     position: relative;
-    z-index:2;
+    width: 31.33%;
+    margin: 1%;
+    height: 30.33vw;
+    color: #fff;
 }
 
 .cta-toys {
+	color: inherit;
 	background-color: #C49991;
-	padding: 50px 20px 15px 260px;
-	position: relative;
-	left:-340px;
-	top:20px;
+	position: absolute;
 	z-index:1;
+	bottom: 0;
+	right: 0;
+	width: 90%;
+	text-align: right;
+	padding: 3em 2em 1em;
 }
 
 .clothes {
@@ -282,57 +249,26 @@ a {
 }
 
 .new {
-=======
     background-color: #C49991;
     width: 31%;
     padding: 10px;
     margin: 0px 5px 10px 10px;
     float: left;
 }
-
-.clothes {
-    background-color: #E8F1F2;
-    width: 31%;
-    padding: 10px;
->>>>>>> 1e6af3f068bda42a61aba5cae267f2ee9db89fb9
-    margin: 0px 5px 10px 5px;
-    float: left;
-}
-
-<<<<<<< HEAD
-.cta-new {
-	background-color: #4A5759;
-	padding: 65px 25px 15px 260px;
-	position: relative;
-	left:-340px;
-	z-index:1;
-=======
-.new {
-    background-color: #4A5759;
-    width: 31%;
-    padding: 10px;
-    margin: 0px 5px 10px 5px;
-    float: left;
->>>>>>> 1e6af3f068bda42a61aba5cae267f2ee9db89fb9
-}
-
-.clearfix2:after {
-    visibility: hidden;
-    display: block;
-    font-size: 0;
-    content: " ";
-    clear: both;
-    height: 0;
-}
-
 #hang-image {
 	float: left;
+	width: 66.66%;
+	height: 100%;
+	background: url(../images/cafe2.jpg);
+	background-size: cover;
+	background-position: center;
 }
 
 #hang-left {
-  	width: 34%;
+  	width: 33.33%;
   	text-align: center;
-  	float: right;
+  	float: left;
+  	height: 100%;
 }
 
 .hang-text {
@@ -387,3 +323,38 @@ input[type=submit]{
 	cursor: pointer;
 }
 
+.sale img {
+    width: 100%;
+}
+
+span {
+    display: block;
+}
+
+.toys img {
+    position: absolute;
+    width: 90%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    box-shadow: 2px 2px 4px rgba(0,0,0,.25);
+}
+
+.toys:nth-of-type(2) .cta-toys {
+    top: 0;
+    bottom: initial;
+    padding: 1em 2em 3em;
+}
+.toys:nth-of-type(2) img {
+    bottom:0;
+    top:initial;
+}
+
+#hang {
+    min-height: 50em;
+    height: 95vh;
+}
+
+#hang-left > * {
+    height: 50%;
+}
