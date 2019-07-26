@@ -71,6 +71,8 @@ h4 {
 p {
   	font-family: 'Roboto', sans-serif;
   	color: #4A5759;
+<<<<<<< HEAD
+=======
   	font-size: 1em;
   	line-height: 1.5em;
   	padding: 10px;
@@ -79,10 +81,22 @@ p {
 .p1 {
 	font-family: 'Roboto', sans-serif;
   	color: white;
+>>>>>>> 1e6af3f068bda42a61aba5cae267f2ee9db89fb9
+  	font-size: 1em;
+  	line-height: 1.5em;
+  	padding: 10px;
+}
+
+<<<<<<< HEAD
+.p1 {
+	font-family: 'Roboto', sans-serif;
+  	color: white;
   	font-size: 1em;
   	line-height: 1.5em;
 }
 
+=======
+>>>>>>> 1e6af3f068bda42a61aba5cae267f2ee9db89fb9
 .p2 {
 	font-family: platelet, sans-serif;
 	font-weight: 400;
@@ -104,7 +118,11 @@ a {
 }
 
 .a1 {
+<<<<<<< HEAD
+	color: #3C6E71;
+=======
 	color: #4A5759;
+>>>>>>> 1e6af3f068bda42a61aba5cae267f2ee9db89fb9
 	padding: 10px;
 }
 
@@ -116,6 +134,7 @@ a {
   	padding: 20px;
   	text-decoration: none;
 
+<<<<<<< HEAD
 }
 
 .fa {
@@ -130,6 +149,25 @@ a {
 	padding: 10px 65px 10px 65px;
 }
 
+.cta:hover {
+	background-color: #3C6E71;
+}
+=======
+}
+
+.fa {
+	color: #4A5759;
+	text-decoration: none;
+	padding: 20px;
+}
+
+.cta {
+	background-color: #4A5759;
+	text-decoration: none;
+	padding: 10px 65px 10px 65px;
+}
+
+>>>>>>> 1e6af3f068bda42a61aba5cae267f2ee9db89fb9
 
 .clearfix:after {
     visibility: hidden;
@@ -187,7 +225,11 @@ a {
 
 .sale {
     position: relative;
+<<<<<<< HEAD
+    padding-top: 20px;
+=======
     padding-top: 10px;
+>>>>>>> 1e6af3f068bda42a61aba5cae267f2ee9db89fb9
     padding-bottom: 5px;
    
 }
@@ -197,11 +239,50 @@ a {
     bottom: 300px;
     right: 50px;
     width: 250px;  
+<<<<<<< HEAD
+    background-color: #E8F1F2;
+=======
     background-color: #FCF3E4;
+>>>>>>> 1e6af3f068bda42a61aba5cae267f2ee9db89fb9
     padding: 25px 55px 59px 25px;  
 }
 
 .toys {
+<<<<<<< HEAD
+    margin: 0px 5px 10px 200px;
+    float: left;
+    position: relative;
+    z-index:2;
+}
+
+.cta-toys {
+	background-color: #C49991;
+	padding: 50px 20px 15px 260px;
+	position: relative;
+	left:-340px;
+	top:20px;
+	z-index:1;
+}
+
+.clothes {
+    margin: 0px 5px 10px 0px;
+    padding-top: 40px;
+    float: left;
+    z-index:2;
+}
+
+.cta-clothes {
+	background-color: #FCF3E4;
+	color: #3C6E71;
+	padding: 50px 20px 15px 260px;
+	position: relative;
+	left:-340px;
+	bottom: 315px;
+	z-index:1;
+}
+
+.new {
+=======
     background-color: #C49991;
     width: 31%;
     padding: 10px;
@@ -213,16 +294,26 @@ a {
     background-color: #E8F1F2;
     width: 31%;
     padding: 10px;
+>>>>>>> 1e6af3f068bda42a61aba5cae267f2ee9db89fb9
     margin: 0px 5px 10px 5px;
     float: left;
 }
 
+<<<<<<< HEAD
+.cta-new {
+	background-color: #4A5759;
+	padding: 65px 25px 15px 260px;
+	position: relative;
+	left:-340px;
+	z-index:1;
+=======
 .new {
     background-color: #4A5759;
     width: 31%;
     padding: 10px;
     margin: 0px 5px 10px 5px;
     float: left;
+>>>>>>> 1e6af3f068bda42a61aba5cae267f2ee9db89fb9
 }
 
 .clearfix2:after {
