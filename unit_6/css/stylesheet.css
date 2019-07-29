@@ -18,10 +18,10 @@ nav {
 }
 
 footer {
-    border: 1px black solid;
-    padding: 100px; 
+    height: 20em;
     text-align: center;
-    clear: both;  
+    clear: both;
+    padding-top: 45px; 
 }
 
 body {
@@ -42,7 +42,7 @@ h2 {
   	color: #707070;
   	font-size: 1.875em;
   	line-height: 1em;
-  	padding: 20px;
+  	padding: 0.5em 0 1em 0;
 }
 
 h3 {
@@ -61,16 +61,14 @@ h4 {
 } 
 
 .h21 {
-	font-family: 'Karla', sans-serif;
   	color: white;
-  	font-size: 1.875em;
-  	line-height: 1em;
 } 
 
 
 p {
   	font-family: 'Roboto', sans-serif;
   	color: #4A5759;
+    padding: 10px;
 }
 
 .p1 {
@@ -88,21 +86,19 @@ p {
 
 }
 a {
-  	color: white;
+    color: white;
 	text-decoration: underline;
 	font-family: 'Roboto', sans-serif;
   	line-height: 1.5em;
-  	padding: 10px;
 }
 
 .a1 {
 	color: #3C6E71;
-	color: #4A5759;
 }
 
 .a2 {
-	font-family: 'Karla', sans-serif;
-  	color: #707070;
+  	font-family: 'Karla', sans-serif;
+    color: #3C6E71;
   	font-size: 1.3em;
   	line-height: 1em;
   	padding: 20px;
@@ -110,7 +106,8 @@ a {
 }
 
 .fa {
-	color: #4A5759;
+	color: #3C6E71;
+  height: 1em;
 	text-decoration: none;
 	padding: 20px;
 }
@@ -118,7 +115,7 @@ a {
 .cta {
 	background-color: #4A5759;
 	text-decoration: none;
-	padding: 10px 65px 10px 65px;
+	padding: 0.8em 3em;
 }
 
 .cta:hover {
@@ -141,7 +138,7 @@ a {
 }
 
 #left {
-  background: linear-gradient(rgba(52,52,52,.23),rgba(52,52,52,.23)), url(../images/sweetmoments.jpg), center;
+  background: linear-gradient(rgba(52,52,52,.50),rgba(52,52,52,.0)), url(../images/sweetmoments.jpg), center;
   background-size: cover;
   background-position: center;
   float: left;
@@ -155,12 +152,11 @@ a {
 	/* padding: 280px; */
 	position: absolute;
 	/* left: 50%; */
-	top: 3em;
-	font-size: 1.5em;
+	top: 4em;
+	font-size: 1.2em;
 	/* transform: translateX(-50%); */
-	text-shadow: 1px 1px 2px rgba(0,0,0,.50);
 	width: 100%;
-	padding: 0 4em;
+	padding: 0 5em;
 }
 
 #right {
@@ -170,26 +166,27 @@ a {
   height: 100%;
 }
 
-#intro-babyshop {
-	background-color: #FFFCF7;
+.intro-shop {
 	border-bottom: 0.5px #DDDDDD solid;
-	padding: 100px;
-	height: 50%;
+	padding-top: 5em;
+  height: 50%;
 }
 
-#intro-hang {
-	background-color: #FFFCF7;
-  	border-top: 0.5px #DDDDDD solid;
-	padding: 100px;	
+
+.intro-hang {
+  border-top: 0.5px #DDDDDD solid;
+  padding-top: 4em;
+  height: 50%;
 }
 
 .shop {
     width: 33.33%;
-    /* margin: 10px 0 0 10px; */
     float: left;
     text-align: center;
-    padding: 120px 20px;
+    padding: 5em 1.5em 0 1.5em;
+
 }
+
 
 .sale {
     position: relative;
@@ -198,19 +195,25 @@ a {
     width: 66.66%;
 }
 
+.sale img {
+    width: 100%;
+}
+
 .sale-textbox {
     position: absolute;
-    top: 1em;
+    top: 0em;
     right: 3em;
     width: 20em;
     background-color: #E8F1F2;
-    background-color: #FCF3E4;
-    padding: 6em 2em;
-    box-shadow: 2px 2px 4px rgba(0,0,0,.25);
-    text-align: center;
+    padding: 3em 2em;
+    text-align: left;
 }
 
-.toys {
+span {
+    display: block;
+}
+
+.categ {
     float: left;
     position: relative;
     width: 31.33%;
@@ -219,9 +222,10 @@ a {
     color: #fff;
 }
 
-.cta-toys {
+.cta-categ {
 	color: inherit;
 	background-color: #C49991;
+  text-decoration: underline;
 	position: absolute;
 	z-index:1;
 	bottom: 0;
@@ -231,37 +235,46 @@ a {
 	padding: 3em 2em 1em;
 }
 
-.clothes {
-    margin: 0px 5px 10px 0px;
-    padding-top: 40px;
-    float: left;
-    z-index:2;
+.categ img {
+    position: absolute;
+    width: 90%;
+    top: 0;
+    left: 0;
+    z-index: 2;
 }
 
-.cta-clothes {
-	background-color: #FCF3E4;
-	color: #3C6E71;
-	padding: 50px 20px 15px 260px;
-	position: relative;
-	left:-340px;
-	bottom: 315px;
-	z-index:1;
+.categ:nth-of-type(2) .cta-categ {
+    background-color: #FCF3E4;
+    color: #3C6E71;
+    top: 0;
+    bottom: initial;
+    padding: 1em 2em 3em;
 }
 
-.new {
-    background-color: #C49991;
-    width: 31%;
-    padding: 10px;
-    margin: 0px 5px 10px 10px;
-    float: left;
+.categ:nth-of-type(2) img {
+    bottom:0;
+    top:initial;
 }
+
+.categ:nth-of-type(3) .cta-categ {
+    background-color: #4A5759;
+}
+
+#hang {
+  clear: both;
+  height: 85vh;
+  min-height: 40em;
+}
+
 #hang-image {
 	float: left;
-	width: 66.66%;
-	height: 100%;
 	background: url(../images/cafe2.jpg);
-	background-size: cover;
-	background-position: center;
+  background-size: cover;
+  background-position: center;
+  float: left;
+  width: 65%;
+  height: 100%;
+  position: relative;
 }
 
 #hang-left {
@@ -272,40 +285,26 @@ a {
 }
 
 .hang-text {
-	padding: 70px;
+	 padding: 2em;
   	
 }
 
 #causes {
-	clear: both;
+  	clear: both;
     background-color: #4A5759;
     text-align: center;
-    padding: 100px 200px 400px 200px;
+    height: 33em;
+    padding: 3em 0 3em 0;
 }
 
-#causes-circles {
-	padding: 0 10px 0 10px;
+.circles {
+    padding-top: 3em;
+    float: left;
+    position: relative;
+    width: 25%;
+    text-decoration: none;
 }
 
-.water {
-	padding:50px;
-	float: left;
-}
-
-.education {
-	padding:50px;
-	float: left;
-}
-
-.health {
-	padding:50px;
-	float: left;
-}
-
-.marriage {
-	padding:50px;
-	float: left;
-}
 
 input[type=text] {
 	width: 20%;
@@ -323,32 +322,6 @@ input[type=submit]{
 	cursor: pointer;
 }
 
-.sale img {
-    width: 100%;
-}
-
-span {
-    display: block;
-}
-
-.toys img {
-    position: absolute;
-    width: 90%;
-    top: 0;
-    left: 0;
-    z-index: 2;
-    box-shadow: 2px 2px 4px rgba(0,0,0,.25);
-}
-
-.toys:nth-of-type(2) .cta-toys {
-    top: 0;
-    bottom: initial;
-    padding: 1em 2em 3em;
-}
-.toys:nth-of-type(2) img {
-    bottom:0;
-    top:initial;
-}
 
 #hang {
     min-height: 50em;

@@ -2,6 +2,9 @@
 <html>
 
 <head>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
 	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -34,22 +37,22 @@
 			</div>
 			
 			<div id="right">
-				<div id="intro-babyshop">
-					<img src="images/iconshop.png" width="77">
+				<div class="intro-shop">
+					<img src="images/iconshop.png">
 					<h2> The Baby Shop </h2>
 					<a class='cta' href="#">Shop Now</a>
 				</div>
-				<div id="intro-hang">
-					<img src="images/iconcafe.png" width="65">
+				<div class="intro-hang">
+					<img src="images/iconcafe.png">
 					<h2> Come Hang </h2>
 					<a class='cta' href="#">Locations</a>
 				</div>	
 			</div>
 		</section>		
 
-		<section id="baby-shop">		
+		<section id="babyshop" class="clearfix">			
 			<div class="shop">
-				<img src="images/iconshop.png" width="77">
+				<img src="images/iconshop.png">
 				<h2> The Baby Shop </h2>
 				<p>Our products are safe for baby and environmentally friendly so you can shop freely without the mind-hassle. Feel good about buying, we’ll give 10% of the proceeds to a cause of your choice.</p>
 				<a class='a1' href="#">Shop All</a>
@@ -58,32 +61,33 @@
 			<div class="sale">
 				<img src="images/sale-image.png" alt="Image of Baby" width="65%">	
 				<div class="sale-textbox">
-					<h4> SUMMER SALE 70% </h4>	
+					<h4> SUMMER <span> SALE </span> 70% </h4>	
 					<a class='a1' href="#">Shop Sale</a>
 				</div>
 			</div>
-		
-			<div class="toys">
+			
+			<a class="categ" href="#">
 				<img src="images/toy.png" alt="Image of Baby Toys">
-				<a class='cta-toys' href="#">Shop Toys</a>
-			</div>		
+				<p class='cta-categ' href="#">Shop Toys</p>
+			</a>		
 		
-			<div class="clothes">
+			<a class="categ" href="#">
 				<img src="images/babyclothes.png" alt="Image of Baby Toys">
-				<a class='cta-clothes' href="#">Shop Clothes</a>
-			</div>	
+				<p class='cta-categ' href="#">Shop Clothes</p>
+			</a>	
 
-			<div class="new">
+			<a class="categ" href="#">
 				<img src="images/bassinet.png" alt="Image of Bassinet">
-				<a class='cta-new' href="#">Shop New Arrivals</a>
-			</div>			
+				<p class='cta-categ' href="#">Shop New Arrivals</p>
+			</a>			
 		</section>
 			
-		<section id="hang" class="clearfix2">	
-			<img src="images/cafe2.jpg" alt="Image of Cafe" width="1100" id="hang-image">
+		<section id="hang" class="clearfix">	
+			<div id="hang-image"> </div>
+			
 			<div id="hang-left">
 				<div class="hang-text">
-					<img src="images/iconcafe.png" width="65">
+					<img src="images/iconcafe.png">
 					<h2> Come Hang </h2>
 					<p>We love our coffee and love to share it. Visit us at one of our coffee shops where you’ll be able to view a selection of our products. All our coffee shop proceeds will go to a cause of your choice.</p>
 					<a class="a1" href="#">Locations</a>
@@ -91,9 +95,10 @@
 
 				<div class="mapouter">
 					<div class="gmap_canvas">
-						<iframe width="550" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=buckhead&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+						<iframe width="110%" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=buckhead&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
 					</div>
-				</div>
+				</div>	
+			</div>
 		</section>		
 
 				
@@ -101,26 +106,26 @@
 				<h2 class="h21">Buy Some, Give Some</h2>
 				<p class="p1">10% of our proceeds go to a child-related cause of your choice, you pick at check out.</p>
 				
-				<div id="causes-circles">
-					<div class="water">
-						<img src="images/cleanwater.png" alt="Clean Water" width="200">
+				<div class="cause-circles">
+					<a class="circles" href="#">
+						<img src="images/cleanwater.png" alt="Clean Water">
 						<p class="p2">Clean Water</p>
-					</div>
+					</a>
 
-					<div class="education">
-						<img src="images/education.png" alt="Girls Education" width="200">
+					<a class="circles" href="#">
+						<img src="images/education.png" alt="Girls Education">
 						<p class="p2">Girls Education</p>
-					</div>
+					</a>
 
-					<div class="health">
-						<img src="images/health.png" alt="Maternal Health" width="200">
+					<a class="circles" href="#">
+						<img src="images/health.png" alt="Maternal Health">
 						<p class="p2">Maternal Health</p>
-					</div>
+					</a>
 
-					<div class="marriage">
-						<img src="images/cmarriage.png" alt="Child Marriage" width="200">
+					<a class="circles" href="#">
+						<img src="images/cmarriage.png" alt="Child Marriage">
 						<p class="p2">Child Marriage</p>
-					</div>
+					</a>
 				</div>
 
 		</section>

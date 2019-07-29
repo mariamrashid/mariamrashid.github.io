@@ -1,0 +1,448 @@
+@import url(https://fonts.googleapis.com/css?family=Karla:700|Roboto&display=swap);
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing:border-box;
+}
+
+
+header {
+    background-color: #FCF3E4;
+    padding: 30px;
+}
+
+nav {
+    float: right;
+}
+
+footer {
+    height: 20em;
+    text-align: center;
+    clear: both;
+    padding-top: 45px; 
+}
+
+body {
+    background-color: #FFFCF7;
+}
+
+
+h1 {
+  	font-family: 'Karla', sans-serif;
+  	color: white;
+  	font-size: 2.5em;
+  	line-height: 1em;
+  	font-weight: bold;
+}
+
+h2 {
+  	font-family: 'Karla', sans-serif;
+  	color: #707070;
+  	font-size: 1.875em;
+  	line-height: 1em;
+  	padding: 0.5em 0;
+}
+
+h3 {
+  	font-family: 'Karla', sans-serif;
+  	color: #707070;
+  	font-size: 1.3em;
+  	line-height: 1em;
+  	padding: 10px;
+}
+
+h4 {
+    font-family: 'Karla', sans-serif;
+    font-size: 3.3em;
+    color: #3C6E71;
+    line-height: 1;
+} 
+
+.h21 {
+  	color: white;
+} 
+
+
+p {
+  	font-family: 'Roboto', sans-serif;
+  	color: #4A5759;
+    padding: 10px;
+}
+
+.p1 {
+	font-family: 'Roboto', sans-serif;
+  	color: white;
+  	line-height: 1.5em;
+}
+.p2 {
+	font-family: platelet, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+  	color: white;
+  	font-size: 1.5em;
+  	line-height: 1.5em;
+
+}
+a {
+    color: white;
+	text-decoration: underline;
+	font-family: 'Roboto', sans-serif;
+  	line-height: 1.5em;
+}
+
+.a1 {
+	color: #3C6E71;
+}
+
+.a2 {
+  	font-family: 'Karla', sans-serif;
+    color: #3C6E71;
+  	font-size: 1.3em;
+  	line-height: 1em;
+  	padding: 20px;
+  	text-decoration: none;
+}
+
+.fa {
+	color: #3C6E71;
+  height: 1em;
+	text-decoration: none;
+	padding: 20px;
+}
+
+.cta {
+	background-color: #4A5759;
+	text-decoration: none;
+	padding: 0.8em 3em;
+  position: relative;
+  top: 15px;
+}
+
+.cta:hover {
+	background-color: #3C6E71;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+#two-column {
+	clear: both;
+	height: 85vh;
+	min-height: 40em;
+}
+
+#left {
+  background: linear-gradient(rgba(52,52,52,.50),rgba(52,52,52,.0)), url(../images/sweetmoments.jpg), center;
+  background-size: cover;
+  background-position: center;
+  float: left;
+  width: 65%;
+  height: 100%;
+  position: relative;
+}
+
+.hero-text {
+	text-align: center;
+	/* padding: 280px; */
+	position: absolute;
+	/* left: 50%; */
+	top: 4em;
+	font-size: 1.2em;
+	/* transform: translateX(-50%); */
+	width: 100%;
+	padding: 0 5em;
+}
+
+#right {
+  float: right;
+  width: 35%;
+  text-align: center;
+  height: 100%;
+}
+
+.intro-shop {
+	border-bottom: 0.5px #DDDDDD solid;
+	padding-top: 5em;
+  height: 50%;
+}
+
+
+.intro-hang {
+  border-top: 0.5px #DDDDDD solid;
+  padding-top: 4em;
+  height: 50%;
+}
+
+
+#babyshop {
+  padding: 10px 0;
+}
+
+.shop {
+    position: relative;
+    height: 50%;
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    top: 5em;
+    padding: 0 1.5em;
+
+}
+
+
+.sale {
+    position: relative;
+    padding-top: 20px;
+    float: left;
+    width: 66.66%;
+}
+
+.sale img {
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.sale-textbox {
+    position: absolute;
+    top: 0em;
+    right: 3em;
+    width: 20em;
+    background-color: #E8F1F2;
+    padding: 3em 2em;
+    text-align: left;
+}
+
+span {
+    display: block;
+}
+
+.categ {
+    float: left;
+    position: relative;
+    width: 31.33%;
+    margin: 1%;
+    height: 30.33vw;
+    color: #fff;
+}
+
+.cta-categ {
+	color: inherit;
+	background-color: #C49991;
+  text-decoration: underline;
+	position: absolute;
+	z-index:1;
+	bottom: 0;
+	right: 0;
+	width: 90%;
+	text-align: right;
+	padding: 3em 2em 1em;
+}
+
+.categ img {
+    position: absolute;
+    width: 90%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.categ:nth-of-type(2) .cta-categ {
+    background-color: #FCF3E4;
+    color: #3C6E71;
+    top: 0;
+    bottom: initial;
+    padding: 1em 2em 3em;
+}
+
+.categ:nth-of-type(2) img {
+    bottom:0;
+    top:initial;
+}
+
+.categ:nth-of-type(3) .cta-categ {
+    background-color: #4A5759;
+}
+
+#hang {
+  clear: both;
+  height: 85vh;
+  min-height: 40em;
+}
+
+#hang-image {
+	float: left;
+	background: url(../images/cafe2.jpg);
+  background-size: cover;
+  background-position: center;
+  float: left;
+  width: 65%;
+  height: 100%;
+  position: relative;
+}
+
+#hang {
+    min-height: 50em;
+    height: 95vh;
+}
+
+#hang-left > * {
+    height: 50%;
+}
+
+#hang-left {
+  	width: 35%;
+  	text-align: center;
+  	float: left;
+  	height: 100%;
+}
+
+.hang-text {
+	 padding: 2em;
+  	
+}
+
+#causes {
+  	clear: both;
+    background-color: #4A5759;
+    text-align: center;
+    height: 33em;
+    padding: 3em 0 3em 0;
+}
+
+.circles {
+    padding-top: 3em;
+    float: left;
+    position: relative;
+    width: 25%;
+    text-decoration: none;
+}
+
+
+input[type=text] {
+	width: 20%;
+  	padding: 16px 20px;
+ 	margin: 4px 2px;
+  	box-sizing: border-box;
+}
+input[type=submit]{
+	background-color: #F3B61F;
+	border: none;
+	color: white;
+	padding: 16px 32px;
+	text-decoration: none;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+
+@media only screen and (max-width: 1071px) {
+
+    .shop {
+      top: 3em;
+    }
+
+    .cta-categ {
+      bottom: -10px;
+    }
+
+    .categ:nth-of-type(2) .cta-categ {
+      top: -10px;
+    }
+
+}
+
+@media only screen and (max-width: 991px) {
+
+    .shop {
+      width: 100%;
+      margin: 0 0 5em;
+    }
+
+    .sale {
+      float: none;
+      width: 100%;
+    }
+
+    .sale-textbox {
+      top: 16.4em;
+    }
+
+     input[type=text] {
+      width:40%;
+    }
+    
+}
+
+@media only screen and (max-width: 768px) {
+
+    header {
+      text-align: center;
+    }
+
+    .site-nav {
+      float: none;
+    }
+
+    #two-column {
+      display: none;
+    }
+
+    .categ {
+      position: relative;
+      width: 100%;
+      height:9vw;
+      margin: 0;
+      font-size: 1.25em;
+
+    }
+    
+    .categ img {
+      display: none;
+    }
+
+    .cta-categ {
+      width: 100%;
+      padding: 2em;
+      bottom: none;
+      text-align: center;
+      top: none;
+    }
+
+    .categ:nth-of-type(2) .cta-categ {
+      padding: 3em 2em;
+      top: none;
+      bottom: none;
+    }
+
+    #hang-image {
+      display: none;
+    }
+
+    #hang-left {
+      width: 100%;
+      float: none;
+    }
+
+    .hang-text {
+      padding: 6em;
+    }
+
+    #causes {
+      height: 30em;
+    }
+
+    .circles img {
+      width: 135px;
+    }
+
+}
+
+  
