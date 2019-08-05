@@ -116,8 +116,7 @@ a {
 	background-color: #4A5759;
 	text-decoration: none;
 	padding: 0.8em 3em;
-  position: relative;
-  top: 15px;
+  display: inline-block;
 }
 
 .cta:hover {
@@ -168,22 +167,26 @@ a {
   height: 100%;
 }
 
+.intro {
+  position: relative;
+  height: 50%;
+  width: 100%;
+  border-bottom: 0.5px #DDDDDD solid;
+}
+
 .intro-shop {
-	border-bottom: 0.5px #DDDDDD solid;
-	padding-top: 5em;
-  height: 50%;
+	position: relative;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%); 
 }
-
-
-.intro-hang {
-  border-top: 0.5px #DDDDDD solid;
-  padding-top: 4em;
-  height: 50%;
-}
-
 
 #babyshop {
   padding: 10px 0;
+}
+
+#top-shop {
+  height: 50%;
 }
 
 .shop {
@@ -197,7 +200,6 @@ a {
 
 }
 
-
 .sale {
     position: relative;
     padding-top: 20px;
@@ -207,7 +209,6 @@ a {
 
 .sale img {
     width: 100%;
-    padding-bottom: 10px;
 }
 
 .sale-textbox {
@@ -271,6 +272,7 @@ span {
     background-color: #4A5759;
 }
 
+
 #hang {
   clear: both;
   height: 85vh;
@@ -288,10 +290,6 @@ span {
   position: relative;
 }
 
-#hang {
-    min-height: 50em;
-    height: 95vh;
-}
 
 #hang-left > * {
     height: 50%;
@@ -343,7 +341,7 @@ input[type=submit]{
 }
 
 
-@media only screen and (max-width: 1071px) {
+@media only screen and (max-width: 1075px) {
 
     .shop {
       top: 3em;
@@ -359,7 +357,7 @@ input[type=submit]{
 
 }
 
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 995px) {
 
     .shop {
       width: 100%;
@@ -381,7 +379,7 @@ input[type=submit]{
     
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 775px) {
 
     header {
       text-align: center;
@@ -391,35 +389,37 @@ input[type=submit]{
       float: none;
     }
 
-    #two-column {
+    #right {
       display: none;
     }
+
+    #left {
+      width: 100%;
+    } 
 
     .categ {
-      position: relative;
+      clear: both;
       width: 100%;
-      height:9vw;
-      margin: 0;
-      font-size: 1.25em;
-
-    }
-    
-    .categ img {
-      display: none;
     }
 
     .cta-categ {
       width: 100%;
-      padding: 2em;
-      bottom: none;
       text-align: center;
-      top: none;
+      padding: 2em;
+      z-index: 2;
+
+    }
+
+    .categ img {
+      width: 100%;
+      max-height: 70%;
+      object-fit: cover;
     }
 
     .categ:nth-of-type(2) .cta-categ {
-      padding: 3em 2em;
-      top: none;
-      bottom: none;
+      padding: 2em;
+      top: initial;
+
     }
 
     #hang-image {
@@ -431,16 +431,55 @@ input[type=submit]{
       float: none;
     }
 
-    .hang-text {
-      padding: 6em;
-    }
 
     #causes {
       height: 30em;
     }
 
     .circles img {
-      width: 135px;
+      width: 70%;
+    }
+
+}
+
+@media only screen and (max-width: 545px) {
+
+    .sale img {
+      display: none;
+    }
+
+    .sale-textbox {
+      width: 100%;
+      position: initial;
+      float: left;
+      padding: 2em;
+      text-align: center;
+    }
+
+    #causes {
+      height: 50em;
+    }
+    .circles {
+      width: 50%
+    }
+}
+
+@media only screen and (max-width: 385px) {
+
+    .hero-text {
+      padding: 0 2em;
+    }
+
+    #two-column{
+      min-height: 30em; 
+    }
+
+    #left {
+      background: #3c6e71;
+    }
+
+    #causes {
+      height: 45em;
     }
 
 }
